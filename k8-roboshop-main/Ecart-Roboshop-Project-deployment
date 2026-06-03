@@ -5,15 +5,16 @@ This guide walks you through a clean, dependency-aware deployment using Kubernet
 🧠 Understanding What You’re Deploying
 RoboShop is a microservices e-commerce application, where each component runs independently but depends on shared backend services like databases, caches, and messaging systems.
 Start by pulling the deployment manifests:
-
-git clone https://github.com/daws-88s/k8-roboshop.git
+```
+git clone https://github.com/
 cd k8-roboshop/
+```
 📦 Step 1: Create a Dedicated Namespace
 
 In Kubernetes, namespaces help isolate environments and organize resources logically.
-
+```
 kubectl apply -f 01-namespace.yaml
-
+```
 This creates a roboshop namespace where all application components will live.
 
 🧱 Step 2: Deploy Backend Dependencies (Critical Order)
