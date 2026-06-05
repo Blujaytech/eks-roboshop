@@ -1,6 +1,7 @@
 # roboshop-documentation
 
 Below is the communication between components and dependency. This dependency comes from **Development team**. Architects decide that, DevOps has no scope in this.
+
 <img width="731" height="561" alt="image" src="https://github.com/user-attachments/assets/c4a46e79-03f9-4f3e-815d-3d2391a1961f" />
 
 
